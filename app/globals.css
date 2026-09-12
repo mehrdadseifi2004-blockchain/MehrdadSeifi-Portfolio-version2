@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "YekanBakh";
+  src: url("/fonts/YekanBakh.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   font-family: Arial, Helvetica, sans-serif;
   color-scheme: dark;
@@ -998,15 +1006,57 @@ h2 span {
     text-align: right;
   }
 
-
 /* =========================
    Persian Typography
    ========================= */
 
    .site[dir="rtl"] {
-    font-family: var(--font-vazirmatn), Arial, Helvetica, sans-serif;
+    font-family: "YekanBakh", Arial, Helvetica, sans-serif;
   }
   
   .site[dir="ltr"] {
     font-family: Arial, Helvetica, sans-serif;
   }
+  
+  .site[dir="rtl"] h1,
+  .site[dir="rtl"] h2,
+  .site[dir="rtl"] h3,
+  .site[dir="rtl"] h4,
+  .site[dir="rtl"] h5,
+  .site[dir="rtl"] h6 {
+    font-family: var(--font-vazirmatn), Arial, Helvetica, sans-serif;
+  }
+
+  /* =========================
+   Light Mode — UI Contrast
+   ========================= */
+
+.site.light .ghost {
+  color: #071014;
+  border-color: #168f8a;
+}
+
+.site.light .social {
+  color: #526267;
+}
+
+.site.light .social a {
+  color: #526267;
+}
+
+.site.light .lang {
+  color: #526267;
+}
+
+.site.light .back-top {
+  color: #526267;
+}
+
+.site.light .pager {
+  color: #008f84;
+}
+
+.site.light .pager button {
+  color: #071014;
+  border-color: #7a9296;
+}
