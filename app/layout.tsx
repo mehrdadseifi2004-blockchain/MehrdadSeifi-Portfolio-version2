@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: "Mehrdad Seif — Full Stack Developer & Digital Product Creator",
   description: "Personal portfolio of Mehrdad Seif.",
   other: {
-    enamad: "۵۴۲۵۰۷۵۷",
+    enamad: "54250757",
   },
 };
 
