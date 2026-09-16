@@ -22,11 +22,8 @@ const vazirmatn = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "54250757",
+  title: "Mehrdad Seif — Full Stack Developer & Digital Product Creator",
   description: "Personal portfolio of Mehrdad Seif.",
-  other: {
-    enamad: "54250757",
-  },
 };
 
 export default function RootLayout({

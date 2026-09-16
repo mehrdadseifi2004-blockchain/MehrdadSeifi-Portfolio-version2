@@ -995,7 +995,7 @@ export default function Home() {
         <div className="contact-grid">
           <motion.a
             className="card contact-card"
-            href="mailto:Mehrdadseifi2004@gmail.com"
+            href="mailto:info@mehrdadseif.ir"
             whileHover={{ y: -5 }}
           >
             <div className="icon">
@@ -1006,7 +1006,7 @@ export default function Home() {
 
             <h3>{t ? "در تماس باشیم" : "Let’s Talk"}</h3>
 
-            <p>Mehrdadseifi2004@gmail.com</p>
+            <p>info@mehrdadseif.ir</p>
 
             <ArrowUpRight className="card-arrow" size={18} />
           </motion.a>
