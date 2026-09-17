@@ -421,7 +421,7 @@ export default function Home() {
           <p className="lead">
             {t
               ? "ساخت سیستم‌های Web3، فول‌استک و مبتنی بر هوش مصنوعی."
-              : "Building Web3, Full-Stack & AI-Powered Systems."}
+              : "Building Web3, Full-Stack, Blockchain Developer & AI-Powered Systems."}
           </p>
 
           <p className="sub">
@@ -1080,15 +1080,31 @@ export default function Home() {
           <div className="footer-brand">
             <a href="#home" className="brand">
               <span className="brand-mark">M</span>
-
               <span>{t ? "مهرداد سیفی" : "Mehrdad Seifi"}</span>
             </a>
 
             <p>
               {t
                 ? "مهندس ارشد Blockchain و Full-Stack در حال ساخت سیستم‌های Web3، Full-Stack و مبتنی بر هوش مصنوعی."
-                : "Senior Blockchain & Full-Stack Engineer building Web3, Full-Stack & AI-Powered Systems."}
+                : "Senior Blockchain & Full-Stack Engineer building Web3, Full-Stack, Blockchain Developer & AI-Powered Systems."}
             </p>
+
+            <div
+              className="enamad-seal"
+              dangerouslySetInnerHTML={{
+                __html: `
+      <a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=7768063&Code=PtZTchbQL8RR5LVg3KgXSUNzW4flCOkD'>
+        <img
+          referrerpolicy='origin'
+          src='https://trustseal.enamad.ir/logo.aspx?id=7768063&Code=PtZTchbQL8RR5LVg3KgXSUNzW4flCOkD'
+          alt=''
+          style='cursor:pointer'
+          code='PtZTchbQL8RR5LVg3KgXSUNzW4flCOkD'
+        >
+      </a>
+    `,
+              }}
+            />
           </div>
 
           <nav className="footer-nav">

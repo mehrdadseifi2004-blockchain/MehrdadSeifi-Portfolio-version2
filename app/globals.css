@@ -887,6 +887,18 @@ h2 span {
   .back-top:hover {
     color: #00e5d0;
   }
+
+  .enamad-seal {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .enamad-seal img {
+    width: 100px;
+    height: auto;
+    display: block;
+  }
   
   /* =========================
      Footer — RTL
