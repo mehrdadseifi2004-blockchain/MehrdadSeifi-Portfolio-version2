@@ -668,6 +668,71 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ================= SOURCE CODE ================= */}
+
+      <section id="source-code" className="section wrap">
+        <div className="section-head">
+          <div>
+            <div className="eyebrow">
+              {t ? "محصول تجاری" : "Commercial Product"}
+            </div>
+
+            <h2>{t ? "فروش سورس کد" : "Sell My Source Code"}</h2>
+
+            <p>
+              {t
+                ? "سورس کامل و آماده استفاده Jahan Emrooz Commerce را مشاهده و خریداری کنید."
+                : "Explore and purchase the complete, production-ready Jahan Emrooz Commerce source code."}
+            </p>
+          </div>
+
+          <a
+            className="text-link"
+            href="https://store.mehrdadseif.ir"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t ? "مشاهده محصول" : "View Product"}
+            {t ? <ArrowLeft size={15} /> : <ArrowRight size={15} />}
+          </a>
+        </div>
+
+        <div className="project-grid">
+          <motion.a
+            className="project"
+            href="https://store.mehrdadseif.ir"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ y: -5 }}
+          >
+            <div className="project-image">
+              <img
+                src="/images/jahan-emrooz-commerce.png"
+                alt="Jahan Emrooz Commerce"
+              />
+
+              <div className="image-shade" />
+            </div>
+
+            <div className="project-meta">
+              <div>
+                <h3>Jahan Emrooz Commerce</h3>
+
+                <p>
+                  {t
+                    ? "سورس تجاری فروشگاه آنلاین"
+                    : "Commercial E-Commerce Source Code"}
+                </p>
+
+                <small>Next.js / Medusa / TypeScript</small>
+              </div>
+
+              <ArrowUpRight size={19} />
+            </div>
+          </motion.a>
+        </div>
+      </section>
+
       {/* ================= PROJECTS ================= */}
 
       <section id="projects" className="section wrap">
@@ -1134,3 +1199,4 @@ export default function Home() {
     </main>
   );
 }
+
