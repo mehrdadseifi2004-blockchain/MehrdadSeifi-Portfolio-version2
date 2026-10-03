@@ -633,7 +633,35 @@ h2 span {
   font-size: 11px;
   color: #c3d0d3;
 }
+
+/* Contact icons: .contact-card > div was overriding .icon's grid centering. */
+.contact-card > div.icon {
+  display: grid;
+  place-items: center;
+  width: 35px;
+  min-width: 35px;
+  height: 35px;
+  min-height: 35px;
+  padding: 0;
+  margin: 0 0 0 0;
+  flex: 0 0 35px;
+  line-height: 0;
+  box-sizing: border-box;
+}
+
+.contact-card > div.icon svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin: 0;
+  color: #00d7c4;
+}
+
 .contact-card svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  flex-shrink: 0;
   color: #00d7c4;
 }
 
