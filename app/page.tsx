@@ -553,7 +553,7 @@ export default function Home() {
 
         <div className="stats glass">
           <div>
-            <strong>5+</strong>
+            <strong>8+</strong>
             <small>{t ? "سال تجربه" : "Years Experience"}</small>
           </div>
 
