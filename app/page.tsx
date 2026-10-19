@@ -24,6 +24,18 @@ type Language = "en" | "fa";
 
 const projects = [
   {
+    title: "Jahane Emrooz",
+    typeEn: "E-commerce / Digital Store",
+    typeFa: "فروشگاه اینترنتی / محصولات دیجیتال",
+    tech: "Next.js / TypeScript / Medusa",
+    descriptionEn:
+      "A modern e-commerce platform for discovering and purchasing digital products.",
+    descriptionFa:
+      "یک فروشگاه اینترنتی مدرن برای معرفی و خرید محصولات دیجیتال.",
+    image: "/images/jahan-emrooz-commerce.png",
+    link: "https://todaysworld.ir",
+  },
+  {
     title: "Sarraff",
     typeEn: "DeFi / Decentralized Exchange",
     typeFa: "دیفای / صرافی غیرمتمرکز",
