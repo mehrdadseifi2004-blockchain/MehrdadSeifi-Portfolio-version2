@@ -742,6 +742,39 @@ export default function Home() {
               <ArrowUpRight size={19} />
             </div>
           </motion.a>
+
+          <motion.a
+            className="project"
+            href="https://railsync.ir"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ y: -5 }}
+          >
+            <div className="project-image">
+              <img
+                src="/images/railsync.png"
+                alt="RailSync"
+              />
+
+              <div className="image-shade" />
+            </div>
+
+            <div className="project-meta">
+              <div>
+                <h3>RailSync</h3>
+
+                <p>
+                  {t
+                    ? "افزونهٔ کروم برای ساده‌تر کردن فرایند استفاده از سامانهٔ رجا"
+                    : "A Chrome extension designed to simplify the Raja railway booking experience."}
+                </p>
+
+                <small>Chrome Extension / JavaScript</small>
+              </div>
+
+              <ArrowUpRight size={19} />
+            </div>
+          </motion.a>
         </div>
       </section>
 
