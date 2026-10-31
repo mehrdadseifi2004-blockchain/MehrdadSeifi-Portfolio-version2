@@ -151,6 +151,18 @@ const projects = [
     image: "/images/omiddamghani.png",
     link: "https://www.omiddamghani.ir/",
   },
+  {
+    title: "RailSync",
+    typeEn: "Railway / Chrome Extension",
+    typeFa: "راه‌آهن / افزونه کروم",
+    tech: "JavaScript / Chrome Extension",
+    descriptionEn:
+      "A Chrome extension designed to simplify the Raja railway booking experience.",
+    descriptionFa:
+      "یک افزونه کروم برای ساده‌تر کردن فرایند استفاده از سامانه رجا.",
+    image: "/images/railsync.png",
+    link: "https://railsync.ir",
+  },
 ];
 
 const services = [
